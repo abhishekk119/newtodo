@@ -1,0 +1,37 @@
+.strike {
+    text-decoration: line-through;
+}
+
+body {
+    
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+  
+  #container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content; /* Adjust width to content */
+    margin: 0 auto; /* Center horizontally */
+  }
+
+.task-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Checkbox | Text | Delete Button */
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+
+.tasks {
+    font-size: 20px;
+    font-family:Monospace;
+}
