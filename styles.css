@@ -35,3 +35,11 @@ body {
     font-size: 20px;
     font-family:Monospace;
 }
+
+#addbtn {
+    border: solid 1px;
+    background-color: #0039a6;
+    border-radius: 5px;
+    height: 23px;
+    color: white;
+}
